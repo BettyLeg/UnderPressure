@@ -1,0 +1,300 @@
+.UPlay {
+    outline: var(--border);
+    width: 385px;
+    margin: 10px auto;
+    background: linear-gradient(45deg,hsl(from var(--accent) calc(h + var(--grh)) s l),var(--accent));
+    border: 10px solid var(--background-4);
+    border-radius: 26px;
+    overflow: hidden;
+}
+
+.uplay-content {
+    border: var(--border);
+}
+
+.uplay-title {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    height: 115px;
+    justify-content: flex-end;
+    padding: 20px 20px 20px 160px;
+    background: linear-gradient(45deg, hsl(from var(--accent) calc(h + var(--grh)) s l), hsl(from var(--accent) h s l));
+}
+
+.uplay-avatar {
+    position: absolute;
+    left: 20px;
+    width: 115px;
+    height: 115px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.uplay-avatar > img {
+    width: 115px;
+}
+
+.uplay-name {
+    font-family: 'Mediative';
+    text-transform: lowercase;
+    font-weight: 300;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 100%;
+    line-height: 100%;
+}
+
+.uplay-subtitle> img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.uplay-subtitle {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: .65rem;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.uplay-subtitle a {
+    font-weight: 400;
+    font-family: 'Mediative';
+    text-transform: lowercase;
+    font-size: .8rem;
+    font-style: italic;
+    letter-spacing: -0px;
+    color: #fff;
+}
+
+.upplay-canciones.sinbr {
+    display: grid;
+    gap:10px;
+    padding:20px;
+    background: var(--background-2);
+}
+
+.uplay-logo {
+    background: linear-gradient(to left,hsl(from var(--accent) calc(h + var(--grh)) s l),var(--accent));
+    padding: 20px;
+    font-family:mediative;
+    border-top: var(--border);
+}
+.uplay-logo>b{
+    font-weight: 400;
+    font-size:1.5rem;
+    font-style:italic;
+    color: #fff;
+    padding: 10px;
+}
+
+.uplay-navbar {
+    border-top: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    background: linear-gradient(45deg, hsl(from var(--accent) calc(h + var(--grh)) s l), hsl(from var(--accent) h s l));
+}
+
+.uplay-navbar > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.uplay-navbar b {
+    font-size: .5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    CORNER-SHAPE: SUPERELLIPSE(0.5);
+}
+
+.uplay-navbar i {
+    font-size: 1rem;
+    color: #fff;
+}
+.uplay-cancion {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    padding-left: 100px;
+    min-height: 45px;
+    flex-direction: column;
+    color: #fff;
+    line-height: 100%;
+    transition: 2s ease-in;
+    border: var(--border);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: var(--border-color);
+    border-radius: 10px;
+    z-index: 1;
+    overflow: hidden;
+    text-shadow: var(--text-shadow);
+}
+
+.uplay-cancion > img {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    border-radius: 10px;
+    left: 30px;
+    border: var(--border);
+}
+
+.uplay-cancion > i {
+    display: none;
+}
+
+.uplay-cancion u {
+    font-family: 'Mediative';
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 100;
+    border-bottom: 0;
+}
+
+.uplay-cancion strong {
+    text-transform: uppercase;
+    font-size: .6rem;
+    font-weight: 700;
+}
+
+.uplay-cancion.reproduciendo > img {width: 70px;height: 70px;}
+
+.uplay-cancion > * {
+    transition: 1s ease-in;
+}
+
+.uplay-cancion.reproduciendo {
+    min-height: 70px;
+    padding-left: 125px;
+}
+
+.uplay-cancion:after {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+    content: "";
+    background: linear-gradient(45deg,hsl(from var(--accent) calc(h + var(--grh)) s l),var(--accent));
+    width: 10px;
+    transition: 2s ease-in;
+}
+
+.uplay-cancion.reproduciendo:after {
+    width: 378px;
+}
+
+.uplay-cancion.reproduciendo music {
+    transform: scale(1);
+}
+.uplay-cancion music {
+    position: absolute;
+    left: 12px;
+    z-index: 1;
+    border: var(--border);
+    transform: scale(.5);
+}
+.uplay-content upbot-i {
+    background: #0004;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: .65rem;
+    justify-content: flex-end;
+}.uplay-content {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.uplay-cancion>* {
+    color: var(--accent);
+}
+.uplay-cancion.reproduciendo >* {
+    color: #fff;
+    text-shadow: none;
+}
+.uplay-title-compartido {
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    padding-left: 85px;
+    display: flex;
+    align-items: center;
+}
+
+.uplay-title-compartido .uplay-avatar, .uplay-title-compartido .uplay-avatar img {
+    width: 50px;
+}
+
+.uplay-title-compartido .uplay-avatar {
+    height: 50px;
+}
+
+.UPlay.uplay-compartir .uplay-cancion img {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    left: unset !important;
+}
+
+.UPlay.uplay-compartir .uplay-cancion {
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.UPlay.uplay-compartir {
+    width: 330px;
+}
+.uplay-compartir music {
+    left: unset;
+    top: 6px;
+}
+
+.uplay-compartir .uplay-cancion u {
+    font-size: 1.6rem;
+    margin-top: 20px;
+}
+
+.uplay-compartir .uplay-cancion {
+    line-height: 100%;
+}
+
+.uplay-compartir .uplay-cancion strong {
+    font-size: .65rem;
+    margin-top: -5px;
+}
+.uplay-compartir .uplay-cancion:after {
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+}
+
+.uplay-compartir .uplay-cancion.reproduciendo:after {
+    height: 100%;
+    width: 100%;
+}
+.uplay-cancion music {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent);
+    border-radius: 100%;
+    text-shadow: none;
+    color: var(--background-4);
+    font-size: .8rem;
+}
