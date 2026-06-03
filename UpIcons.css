@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'UPIcons';
-  src:  url('https://dl.dropbox.com/scl/fi/t9q4ez3ajrbnyw56cmqjh/UPIcons.eot?rlkey=t2p8kihzptq866sxano310bl5&st=2o7k8x0a&dl=0');
-  src:  url('https://dl.dropbox.com/scl/fi/t9q4ez3ajrbnyw56cmqjh/UPIcons.eot?rlkey=t2p8kihzptq866sxano310bl5&st=hxdyhk6k&dl=0') format('embedded-opentype'),
-    url('https://dl.dropbox.com/scl/fi/q0rf6p70jky2nxn57aib4/UPIcons.ttf?rlkey=n8iec0kaxsn5f1z51htczwc17&st=91sto5zc&dl=0') format('truetype'),
-    url('https://dl.dropbox.com/scl/fi/mpq856wtcsh41m9ibo5pc/UPIcons.woff?rlkey=vzu7plsammwmzxtdneo8zud71&st=sig0xzbp&dl=0') format('woff'),
-    url('https://dl.dropbox.com/scl/fi/qc0vr3t2i0ikzg600bkzg/UPIcons.svg?rlkey=lw0wd9a4xylsqvoaoab2okr7i&st=rffbtxfx&dl=0') format('svg');
+  src:  url('https://bettyleg.github.io/UnderPressure/UPIcons.eot');
+  src:  url('https://bettyleg.github.io/UnderPressure/UPIcons.eot') format('embedded-opentype'),
+    url('https://bettyleg.github.io/UnderPressure/UPIcons.ttf') format('truetype'),
+    url('https://bettyleg.github.io/UnderPressure/UPIcons.woff') format('woff'),
+    url('https://bettyleg.github.io/UnderPressure/UPIcons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
