@@ -37,7 +37,7 @@ h2 {
 }
 #s-m-t-tooltip {
     max-width: 350px;
-    z-index: 1000000!important;
+    z-index: 1000000;
     margin: -55px 0 0 0;
     padding: 8px;
     background: var(--background-3);
