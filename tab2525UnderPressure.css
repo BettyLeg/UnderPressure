@@ -246,7 +246,7 @@
     font-size: .76rem !important;
     border-bottom: 0;
 }
-.frat-ganadora.sigma {
+.frat-ganadora {
   background: hsl(from var(--background-3) h s l / 0.7);
   border: var(--border);
   padding: 20px;
