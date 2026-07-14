@@ -1,0 +1,252 @@
+.ganador.stfd-cjtem .cambiar-icon > i:after {
+    content: "\F586";
+    font-family: 'bootstrap-icons';
+    font-style: normal;
+    position: absolute;
+    z-index: -1;
+    font-size: 5.5rem;
+    color: var(--color-icons);
+    opacity: .2;
+    transform: rotate(45deg);
+}
+.ganador.stfd-cjtem .cambiar-icon > i {display: flex;align-items: center;justify-content: center;z-index: 1;height: 100%;overflow: hidden;width: 100px;left: 0;}
+.ganador.stfd-cjtem .cambiar-icon {padding-left: 94px;}
+.ganador .stfd-cjtem-pst-lin > div:first-child:after {
+    content: "Fraternidad ganadora 24-25";
+    background: var(--accent);
+    padding: 0 10px;
+    text-shadow: none;
+    color: #fff;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: .55rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.stf-header.vacations > div > a > b {
+    text-align: right;
+    font-weight: 300;
+    font-size: 6rem;
+    line-height: 69%;
+}
+
+.stf-header.vacations > div {
+    align-items: flex-end;
+    box-sizing:border-box;
+    padding: 0 15vh;
+}
+.stf-header.vacations b {
+    text-shadow: none;
+    -webkit-text-stroke: 1px #fff;
+    background: -webkit-linear-gradient(left, rgb(94 175 191), rgb(215 178 138)); 
+    background: linear-gradient(101deg, rgb(94 175 191) 0%, rgb(215 178 138) 100%);
+    -webkit-background-clip: text;
+}
+.stf-header.vacations > div > a > b:after, .stf-header.vacations > div > a > b:before {
+    bottom: -25px;
+    width: 100%;
+    height: 3px;
+}
+.stf-header.vacations>div>a>b:after {
+    content: "";
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/028/019/752/small_2x/a-half-sun-is-setting-downwards-icon-sunset-concept-for-graphic-design-logo-website-social-media-mobile-app-ui-illustration-png.png);
+    width: 155px;
+    height: 88px;
+    background-size: cover;
+    top: 5px;
+    bottom: unset !important;
+    border: 0;
+    display: block;
+    background-blend-mode: luminosity;
+    background-color: #0000;
+}
+.stfd-cjtem.segundo-lugar .stf-titulo:after, .stfd-cjtem.primer-lugar .stf-titulo:after, .stfd-cjtem.tercer-lugar .stf-titulo:after,
+miembroperfil.segundo-lugar .stf-titulo:after, miembroperfil.primer-lugar .stf-titulo:after, miembroperfil.tercer-lugar .stf-titulo:after {
+    content: "\fe3a";
+    position: absolute;
+    font-family: 'uicons-regular-straight';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.1rem;
+    width: 55px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--accent);
+    color: var(--background-4);
+    text-shadow:none!important;
+}
+miembroperfil.primer-lugar .stf-titulo:after,.stfd-cjtem.primer-lugar .stf-titulo:after{content: "\fe39";}
+.stfd-cjtem.segundo-lugar .stf-titulo, .stfd-cjtem.primer-lugar .stf-titulo, .stfd-cjtem.tercer-lugar .stf-titulo,
+miembroperfil.segundo-lugar .stf-titulo, miembroperfil.primer-lugar .stf-titulo, miembroperfil.tercer-lugar .stf-titulo{
+    position: relative;
+    padding-right: 70px;
+}
+@media screen and (max-device-width: 480px) {
+  .vacations {
+        background-size: cover !important;
+        background-position: bottom !important;
+        background-attachment: scroll !important;
+    }
+.stf-header.vacations > div {
+    padding: 0;
+    align-items: center;
+}}
+/* posteos anonimos */
+.theriddler-anon .tomarcolor-user strong {color: var(--accent);}
+.theriddler-anon .stfd-cjtem-avcont {display: none;}
+.theriddler-anon .stf-t-ln.cjflex:after {
+    content: "posteo incógnito";
+    background: var(--accent);
+    text-shadow: none;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: .65rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+.theriddler-anon .stf-t-c.cjflex.cambiar-icon.cjsinbrr > i:before {
+    content: "\F777";
+    font-family: bootstrap-icons !important;
+}
+.stf-header.halloween2 > div > a > i {
+    position: absolute;
+    font-size: 11rem;
+    -webkit-text-stroke: 2px #fff;
+    left: -145px;
+    margin-top: -21px;
+    width: 163px;
+    overflow: hidden;
+    display: block;
+    background: linear-gradient(45deg,hsl(from var(--accent-foro) calc(h + var(--grh)) s l),var(--accent-foro));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff0;
+    color: tomato;
+    animation: halloween 3s infinite;
+}
+
+@keyframes halloween{
+    0%{transform:rotate(-5deg)}
+    50%{transform:rotate(5deg)}
+    100%{transform:rotate(-5deg)}
+}
+.stf-header.halloween2 > div > a {
+    position: relative;
+}
+
+.stf-header.halloween2 b:after {
+    content: none;
+}
+.stf-header.halloween2 {
+    background: url(https://2img.net/i.imgur.com/NHT0mmX.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+--accent-foro: #93541d;
+    --grh: -20;
+}
+.stf-header.halloween2 > div {
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px 180px;
+    box-sizing: border-box;
+}
+/* customizable snowflake styling */
+.snowflake {color: #fff;font-size: 1em;font-family: Arial, sans-serif;text-shadow: 0 0 5px #000;}
+.snowflake,.snowflake .inner{animation-iteration-count:infinite;animation-play-state:running}@keyframes snowflakes-fall{0%{transform:translateY(0)}100%{transform:translateY(110vh)}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index: 999;-webkit-user-select:none;user-select:none;cursor:default;pointer-events:none;animation-name:snowflakes-shake;animation-duration:3s;animation-timing-function:ease-in-out}.snowflake .inner{animation-duration:10s;animation-name:snowflakes-fall;animation-timing-function:linear}.snowflake:nth-of-type(0){left:1%;animation-delay:0s}.snowflake:nth-of-type(0) .inner{animation-delay:0s}.snowflake:first-of-type{left:10%;animation-delay:1s}.snowflake:first-of-type .inner,.snowflake:nth-of-type(8) .inner{animation-delay:1s}.snowflake:nth-of-type(2){left:20%;animation-delay:.5s}.snowflake:nth-of-type(2) .inner,.snowflake:nth-of-type(6) .inner{animation-delay:6s}.snowflake:nth-of-type(3){left:30%;animation-delay:2s}.snowflake:nth-of-type(11) .inner,.snowflake:nth-of-type(3) .inner{animation-delay:4s}.snowflake:nth-of-type(4){left:40%;animation-delay:2s}.snowflake:nth-of-type(10) .inner,.snowflake:nth-of-type(4) .inner{animation-delay:2s}.snowflake:nth-of-type(5){left:50%;animation-delay:3s}.snowflake:nth-of-type(5) .inner{animation-delay:8s}.snowflake:nth-of-type(6){left:60%;animation-delay:2s}.snowflake:nth-of-type(7){left:70%;animation-delay:1s}.snowflake:nth-of-type(7) .inner{animation-delay:2.5s}.snowflake:nth-of-type(8){left:80%;animation-delay:0s}.snowflake:nth-of-type(9){left:90%;animation-delay:1.5s}.snowflake:nth-of-type(9) .inner{animation-delay:3s}.snowflake:nth-of-type(10){left:25%;animation-delay:0s}.snowflake:nth-of-type(11){left:65%;animation-delay:2.5s}
+.stf-header.christmas {
+    background-image: url(https://2img.net/i.imgur.com/3ZA8swi.jpeg);
+    background-position: top;
+  --accent-foro:#8089ad;
+}
+.stf-header.christmas b:after {
+    display: none;
+}
+.stf-header.christmas b {
+    background: linear-gradient(to bottom, #ffffff, var(--accent-foro));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff0;
+    color: tomato;
+    text-align: center;
+}
+.stf-header.christmas:after {
+    background: linear-gradient(45deg, #ffffff, var(--accent-foro));
+}
+.stf-header.sanvalentin {
+    background: url(https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: color-burn;
+    background-color: hsl(from var(--accent-1) calc(h + 5) s calc(l + 12) / .85);
+}
+@font-face {
+  font-family: "sego";
+  src: url(https://dl.dropbox.com/scl/fi/2vvsmk2l28g7ikfdqx15h/SEGO.ttf?rlkey=ma3ssj7i711j8tqzuy3idp57x&st=vmnvvz6v&dl=0)
+      format("woff2"),
+    url(myfont.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.stf-header.sanvalentin b {
+    font-family: sego;
+   padding-bottom: 30px;
+    line-height: 80%;
+    text-align: center;
+    background: linear-gradient(35deg,hsl(from var(--accent-foro) calc(h + var(--grh)) calc(s + 30) calc(l + 3)) 10%,var(--accent-foro));
+    -webkit-background-clip: text;
+}
+.stf-header.sanvalentin > div > a > b:after {display: none;}
+.stf-header.sanvalentin > div:after {
+    content: "";
+    background: url(https://static.vecteezy.com/system/resources/previews/059/494/000/non_2x/golden-chess-queen-symbol-free-png.png);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 240px;
+    background-size: cover;
+    transform: rotate(5deg);
+    mix-blend-mode: luminosity;
+    filter: brightness(0.7) contrast(0.8) drop-shadow(2px 4px 6px #0004);
+}
+.stf-header.sanvalentin > div {
+    padding-right: 100px !important;
+    box-sizing: border-box;
+}
+.stf-header.pascua b:after {
+  display: none;
+}
+.stf-header.pascua b:before {
+  content: "";
+  display: block;
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/036/876/686/small/easter-day-with-bunny-ears-headband-cartoon-png.png);
+  background-size: cover;
+  width: 165px;
+  height: 113px;
+  background-blend-mode: overlay;
+  margin-left: 68px;
+  margin-bottom: -9px;
+  margin-top: -90px;
+}
+.stf-header.pascua b {
+  text-align: center;
+  text-transform: lowercase;
+  padding: 42px;
+  line-height: 52%;
+  font-size: 8rem;
+}
+.stf-header.pascua:before {
+    filter: brightness(1.1) blur(0px);
+}
+.stf-header.pascua {
+    background: url(https://images.unsplash.com/photo-1773072446998-d03c8d6efb94?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
