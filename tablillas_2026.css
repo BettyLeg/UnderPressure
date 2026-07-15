@@ -538,6 +538,7 @@
     z-index: -1;
     transform: rotate(10deg);
     top: 17px;
+    opacity: .6;
     position: absolute;
 }
 
