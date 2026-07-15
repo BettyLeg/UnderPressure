@@ -50,15 +50,15 @@
     width: 35px;
     font-size: .85rem;
 }
-
 .up26rol-info > span > span {
     text-transform: uppercase;
     font-size: .7rem;
     font-weight: 700;
     color: var(--color-subtitle);
     text-shadow: var(--text-shadow);
+    line-height: 92%;
+    padding: 10px 10px 10px 0;
 }
-
 .up26rol-title {
     background-color: var(--accent-1);
     background-image: var(--accent-1);
