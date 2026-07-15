@@ -153,7 +153,9 @@
 }
 
 .up26rol2-title.cambiar-icon > span> a, .up26rol2-title.w-icon >span> a {
-    background: var(--upgradient);
+        background-color: var(--accent-1);
+    background-image: var(--accent-1);
+    background-image: var(--upgradient, --accent-1);
     text-shadow: none;
     color: #fafafa;
     font-size: .6rem;
