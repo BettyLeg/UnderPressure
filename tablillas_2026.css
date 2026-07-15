@@ -16,6 +16,8 @@
     border: var(--border);
     border-radius: var(--border-radius);
     padding: 35px;
+    position:relative;
+    z-index:1;
 }
 
 .up26rol-info {
@@ -83,4 +85,17 @@
     font-family: 'Mediative';
     font-weight: 200;
     font-size: 1.2rem;
+}
+.up26rol-title.cambiar-icon, .up26rol-title.w-icon {
+    padding-left: 80px;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: flex-start;
+}
+.up26rol-title.cambiar-icon > i, .up26rol-title.w-icon > i {
+    font-size: 2rem;
+    color: #fafafa;
+    position: absolute;
+    left: 30px;
 }
