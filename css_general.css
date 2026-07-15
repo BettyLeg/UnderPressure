@@ -48,7 +48,7 @@ span.new-message{font-size:0;position:absolute;background:var(--accent);width:34
 .cajon-respuesta form#quick_reply>div:nth-child(2){background:var(--background-1);margin:10px -10px -10px;display:flex;align-items:center;justify-content:center;height:50px;border-top:var(--border)}
 .cajon-respuesta form#quick_reply #textarea_content textarea{width:99%!important;box-sizing:border-box;padding:10px;min-height:200px;font-size:.86rem}
 .cajon-respuesta>br{display:none}
-.btn-adm{border:var(--border);border-top:0;background:var(--background-3); border-radius: var(--border-radius); display:flex;align-items:center;justify-content:flex-end;height:40px}
+.btn-adm{border:var(--border);border-top:0;background:var(--background-3); padding-right: 30px; border-radius: var(--border-radius); display:flex;align-items:center;justify-content:flex-end;height:40px}
 .permisos{margin-top:40px;border:var(--border);background:var(--background-2); border-radius: var(--border-radius); overflow:hidden; margin-bottom: 10px;}
 .permisos .h3{display:flex;align-items:center;justify-content:flex-start;border-bottom:var(--border);background-color:var(--accent-1);background-image:var(--accent-1);background-image:var(--upgradient,--accent-1);height:35px;font-size:.7rem;color:#fafafa;padding:0 20px;font-weight:500; letter-spacing: .5px; border-radius: var(--border-radius);}
 .permisos-texto{text-transform:uppercase;font-weight:600;color:var(--color-subtitle);padding:15px;font-size:.7rem;text-shadow:var(--text-shadow)}
