@@ -99,3 +99,93 @@
     position: absolute;
     left: 30px;
 }
+.up26tb2-rol {
+    width: 400px;
+    margin: 10px auto;
+    border: var(--border);
+    background: var(--background-3);
+    border-radius: var(--border-radius);
+    box-sizing: border-box;
+    padding: 12px;
+    --upgradient: linear-gradient(166deg, var(--accent) 0%, hsl(from var(--accent) calc(h + var(--grh)) s l) 100%);
+}
+
+.up26tb2-rol > div {
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background: var(--background-4);
+    border-bottom: 5px solid hsl(from var(--accent) calc(h + var(--grh)) s l /.5);
+    overflow: hidden;
+}
+
+.up26rol2-title.cambiar-icon, .up26rol2-title.w-icon {
+    position: relative;
+    padding: 60px 0;
+    display: flex;
+    text-shadow: var(--text-shadow);
+    flex-direction: column;
+    text-align: center;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    border-bottom: var(--border);
+    background: var(--background-2);
+}
+
+.up26rol2-title.cambiar-icon > i, .up26rol2-title.w-icon > i {
+    z-index: -1;
+    font-size: 8rem;
+    position: absolute;
+    color: var(--color-icons);
+    text-shadow: var(--text-shadow);
+    opacity: .5;
+}
+
+.up26rol2-text {
+    padding: 40px;
+}
+
+.up26rol2-title.cambiar-icon > b, .up26rol2-title.w-icon > b {
+    font-family: 'Mediative';
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.up26rol2-title.cambiar-icon > span> a, .up26rol2-title.w-icon >span> a {
+    background: var(--upgradient);
+    text-shadow: none;
+    color: #fafafa;
+    font-size: .6rem;
+    padding: 2px 10px;
+    border-radius: var(--border-radius);
+    text-transform: uppercase;
+}
+
+.up26rol2-title.cambiar-icon > div, .up26rol2-title.w-icon > div {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    font-size: .65rem;
+    text-transform: uppercase;
+    gap: 20px;
+    font-weight: 700;
+    color: var(--color-subtitle);
+}
+
+.up26rol2-title.cambiar-icon > div  i, .up26rol2-title.w-icon > div i {
+    color: var(--accent);
+    font-size: .7rem;
+}
+
+.up26rol2-title.cambiar-icon > div > span, .up26rol2-title.w-icon > div > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
