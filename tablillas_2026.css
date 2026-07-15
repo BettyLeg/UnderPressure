@@ -194,7 +194,6 @@
 }
 .up26baul.up26baul-indice {
     width: 500px;
-    border: var(--border);
     background: var(--background-4);
     border-radius: var(--border-radius);
     margin: 10px auto;
@@ -206,8 +205,8 @@
         "imagen imagen"
         "frase frase";
     grid-template-columns: auto 151px;
-    border-top: 10px solid hsl(from var(--accent) calc(h + var(--grh)) s l / .4);
-    border-bottom: 10px solid hsl(from var(--accent) calc(h + var(--grh)) s l / .4);
+    border: 15px solid var(--background-2);
+    outline: var(--border);
 }
 
 .up26i-image {
@@ -263,4 +262,89 @@
 }
 .up26baul {
     --upgradient: linear-gradient(166deg, var(--accent) 0%, hsl(from var(--accent) calc(h + var(--grh)) s l) 100%);
+        box-shadow: 2px 2px 10px #0001;
+}
+.up26baul.up26baul-cronologia {
+    width: 455px;
+    margin: 10px auto;
+    background: var(--background-4);
+    border-radius: var(--border-radius);
+    border-top: 10px solid hsl(from var(--accent) calc(h + var(--grh)) s l /.4);
+    border-bottom: 10px solid hsl(from var(--accent) calc(h + var(--grh)) s l /.4);
+    box-sizing: border-box;
+    border: 15px solid var(--background-2);
+    outline: var(--border);
+    display: grid;
+    grid-template-areas:
+        "titulo temas";
+    grid-template-columns: 135px auto;
+}
+
+.up26c-titlemes {
+    font-size: .85rem;
+    color: #fafafa;
+    margin-bottom: 20px;
+    border-bottom: var(--border);
+    background: var(--upgradient);
+    text-align: right;
+    text-shadow: 2px 2px var(--accent);
+    text-transform: uppercase;
+    grid-area: titulo;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.up26c-lista.sinbr {
+    display: grid;
+    gap: 5px;
+    border-radius: var(--border-radius);
+    grid-area: temas;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.up26c-tema > fecha {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-4);
+    border-radius: var(--border-radius);
+    margin-left: -18px;
+    color: var(--accent);
+    font-weight: 800;
+    font-size: .65rem;
+    position: absolute;
+    left: 0;
+}
+
+.up26c-tema > a {
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+    font-style: italic;
+}
+
+.up26c-tema {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    padding-left: 30px;
+    flex-direction: column;
+    min-height: 45px;
+    line-height: 95%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.up26c-tema > span {
+    font-size: .7rem;
 }
