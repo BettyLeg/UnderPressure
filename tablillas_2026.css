@@ -482,3 +482,66 @@
     letter-spacing: 1px;
     color: var(--color-subtitle);
 }
+.up26busqueda-tramas.personajes {
+    width: 520px;
+    --upgradient: linear-gradient(166deg, var(--accent) 0%, hsl(from var(--accent) calc(h + var(--grh)) s l) 100%);
+}
+
+.up26t-personajes.sinbr {
+    padding: 20px;
+    display: grid;
+    gap: 25px;
+}
+
+.up26bt-pj {
+    border: var(--border);
+    display: flex;
+    gap: 10px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.up26bt-pj:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.up26btpj-icon {
+    background: var(--background-3);
+    width: 150px;
+    min-width: 150px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.up26btpj-text {
+    padding: 25px;
+}
+.up26btpj-icon > div {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    border-radius: var(--border-radius);
+    border: 3px solid var(--background-4);
+    z-index: 1;
+}
+
+.up26btpj-icon:after {
+    width: 110px;
+    height: 110px;
+    background: var(--upgradient);
+    display: block;
+    content: "";
+    border-radius: var(--border-radius);
+    z-index: -1;
+    transform: rotate(10deg);
+    top: 17px;
+    position: absolute;
+}
+
+.up26btpj-text .up26btt-text {
+    max-height: 200px;
+    overflow: auto;
+}
