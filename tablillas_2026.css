@@ -192,3 +192,75 @@
     justify-content: center;
     gap: 5px;
 }
+.up26baul.up26baul-indice {
+    width: 500px;
+    border: var(--border);
+    background: var(--background-4);
+    border-radius: var(--border-radius);
+    margin: 10px auto;
+    padding: 40px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-areas:
+        "nombre contacto"
+        "imagen imagen"
+        "frase frase";
+    grid-template-columns: auto 151px;
+    border-top: 10px solid hsl(from var(--accent) calc(h + var(--grh)) s l / .4);
+    border-bottom: 10px solid hsl(from var(--accent) calc(h + var(--grh)) s l / .4);
+}
+
+.up26i-image {
+    height: 318px;
+    background: var(--background-2);
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+.up26i-title {
+    grid-area: nombre;
+    font-size: 3.2rem;
+    text-align: left;
+    position: relative;
+    font-family: 'Mediative';
+    text-shadow: 2px 2px var(--background-4), -2px 2px var(--background-4);
+    text-transform: lowercase;
+    line-height: 58%;
+    margin-bottom: -12px;
+    margin-left: 10px;
+}
+.up26i-contact {
+    grid-area: contacto;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.up26i-image {
+    grid-area: imagen;
+}
+.up26i-quote {
+    grid-area: frase;
+    font-size: .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 15px 15px 0;
+    color: var(--color-subtitle);
+    text-shadow: var(--text-shadow);
+    letter-spacing: 2px;
+}
+.up26i-contact > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 32px;
+    background: var(--upgradient);
+    border-radius: var(--border-radius);
+    color: #fafafa;
+    font-size: .8rem;
+}
+.up26baul {
+    --upgradient: linear-gradient(166deg, var(--accent) 0%, hsl(from var(--accent) calc(h + var(--grh)) s l) 100%);
+}
