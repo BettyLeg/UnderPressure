@@ -133,6 +133,7 @@
 }
 
 .up26rol2-title.cambiar-icon > i, .up26rol2-title.w-icon > i {
+    left: unset;
     z-index: -1;
     font-size: 8rem;
     position: absolute;
