@@ -255,7 +255,9 @@
     justify-content: center;
     width: 34px;
     height: 32px;
-    background: var(--upgradient);
+        background-color: var(--accent-1);
+    background-image: var(--accent-1);
+    background-image: var(--upgradient, --accent-1);
     border-radius: var(--border-radius);
     color: #fafafa;
     font-size: .8rem;
@@ -285,7 +287,9 @@
     color: #fafafa;
     margin-bottom: 20px;
     border-bottom: var(--border);
-    background: var(--upgradient);
+    background-color: var(--accent-1);
+    background-image: var(--accent-1);
+    background-image: var(--upgradient, --accent-1);
     text-align: right;
     text-shadow: 2px 2px var(--accent);
     text-transform: uppercase;
@@ -396,7 +400,9 @@
     content: "";
     width: 97%;
     height: 10px;
-    background: var(--upgradient);
+    background-color: var(--accent-1);
+    background-image: var(--accent-1);
+    background-image: var(--upgradient, --accent-1);
     position: absolute;
     bottom: 0;
     border-radius: var(--border-radius);
@@ -531,7 +537,9 @@
 .up26btpj-icon:after {
     width: 110px;
     height: 110px;
-    background: var(--upgradient);
+    background-color: var(--accent-1);
+    background-image: var(--accent-1);
+    background-image: var(--upgradient, --accent-1);
     display: block;
     content: "";
     border-radius: var(--border-radius);
@@ -545,4 +553,99 @@
 .up26btpj-text .up26btt-text {
     max-height: 200px;
     overflow: auto;
+}
+.up26baul.up26baul-relaciones {width: 588px;margin: 10px auto;border-radius: var(--border-radius);border: 15px solid var(--background-2);outline: var(--border);box-sizing: border-box;display: flex;position: relative;flex-wrap: wrap;gap: 10px;padding: 20px;}
+
+.up26r-pj {
+    width: calc(calc(100% - 30px) / 4);
+    height: 122px;
+    position: relative;
+    z-index: 1;
+    transition: .2s ease-in;
+}
+
+.up26r-pj > div {
+    width: 122px;
+    height: 122px;
+    background-size: cover !important;
+    display: flex;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+    transition: .3s ease-in;
+}
+
+.up26r-pj > div > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+    box-sizing: border-box;
+    line-height: 90%;
+    background: linear-gradient(to top, #0005, transparent);
+    border-radius: var(--border-radius);
+}
+.up26r-pj > div > div > i{
+    font-size: 1rem;
+    background-color: var(--accent-1);
+    background-image: var(--accent-1);
+    background-image: var(--upgradient, --accent-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: var(--border-radius);
+    color: #fafafa;
+    margin-bottom: 10px;
+    border: var(--border);
+}
+.up26r-pj > div > div > b{
+    text-transform: uppercase;
+    font-size: .8rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: 100%;
+    text-shadow: var(--text-shadow);
+}
+.up26r-pj > div > div > span{
+    font-size: .6rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: var(--text-shadow);
+    color: var(--color-subtitle);
+}
+
+.up26r-pj:after {
+    content:"";
+    width: 122px;
+    height: 122px;
+    display: block;
+    background-color: var(--accent-1);
+    background-image: var(--accent-1);
+    background-image: var(--upgradient, --accent-1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--border-radius);
+    opacity: .6;
+    z-index: -1;
+}
+.up26r-pj:hover{
+    transform: scale(.95);
+}
+.up26r-pj:hover > div {
+    transform:rotate(10deg);
+}
+.up26r-pj > div > div{
+    top:10px;
+    position:relative;
+    transition:.2s ease-in;
+    opacity: 0;
+}
+.up26r-pj:hover > div > div{
+    opacity:1;
+    top:0;
 }
