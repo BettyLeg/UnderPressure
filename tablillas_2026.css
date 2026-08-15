@@ -72,7 +72,7 @@
 }
 
 .up26rol-title a {
-    color: #fafafa;
+    color: #fafafa !important;
     text-transform: uppercase;
     font-size: .6rem;
     font-weight: 600;
