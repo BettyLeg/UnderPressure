@@ -52,7 +52,7 @@
   z-index: 1;
 }
 .uptb25-i {
-  --grh: 20;
+  --grh: 20; 
   --upgradient: linear-gradient(
     45deg,
     hsl(from var(--accent-foro) calc(h - var(--grh)) s l),
