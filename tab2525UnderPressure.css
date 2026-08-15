@@ -1,7 +1,3 @@
-.kappa{--grh: 50;}
-.delta{--grh: 30;}
-.sigma{--grh: 40;}
-
 .uptb25-i {
   width: 545px;
   border: var(--border);
@@ -9,6 +5,8 @@
   margin: 5px auto;
   background: var(--background-4);
   padding: 15px;
+  border-radius: var(--border-radius);
+    overflow: hidden;
 }
 .uptb25-i .uptb25-im {
   padding: 40px;
@@ -61,7 +59,6 @@
     var(--accent-foro),
     hsl(from var(--accent-foro) calc(h + var(--grh)) s l)
   );
-  --border-radius:5px;
 }
 .uptb25-itxt {
   padding: 45px;
@@ -69,6 +66,8 @@
   background: var(--background-4);
   position: relative;
   z-index: 2;
+  border-radius: var(--border-radius);
+    overflow: hidden;
 }
 .uptb25-itxt > tag {
   background: var(--upgradient);
@@ -83,6 +82,8 @@
 }
 .uptb25-i > div {
   border: var(--border);
+  border-radius: var(--border-radius);
+    overflow: hidden;
 }
 .uptb25-iti {
   overflow: hidden;
