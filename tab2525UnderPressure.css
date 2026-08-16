@@ -1551,7 +1551,7 @@ upu-icon {
     z-index: 0;
 }
 
-.uptb25-im.sinbr > .active {
+.uptb25-im.sinbr > .pag-activo {
     opacity: 1 !important;
     z-index: 1 !important;
 }
@@ -1570,7 +1570,7 @@ div#uptb25-bottab {
     justify-content: space-evenly;
 }
 
-div#uptb25-bottab > a.active {
+div#uptb25-bottab > a.btn-activo {
     border-bottom: 2px solid var(--accent-foro);
     font-style: italic;
     color: var(--color-text);
