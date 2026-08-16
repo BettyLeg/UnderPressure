@@ -451,6 +451,7 @@ up-q {
 .uptb25-sbtm {
     padding: 15px;
     color: #fff;
+  border-radius: var(--border-radius);
     text-transform: uppercase;
     font-size: .75rem;
     font-weight: 700;
@@ -474,6 +475,9 @@ up-q {
     border: var(--border);
     padding: 15px;
     background: hsl( from var(--background-1) h s l /.8);
+      border-radius: var(--border-radius);
+    overflow: hidden;
+  
 }
 
 .uptb25-medallero.sinbr .up-medal04 {
@@ -516,8 +520,8 @@ up-q {
     text-align: center;
 }
 .uptb25-medallero.sinbr .up-medal04 > img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 .uptb25-itxt.primerh >br:first-child {
     display: none;
