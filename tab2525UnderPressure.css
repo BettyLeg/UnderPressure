@@ -1561,6 +1561,7 @@ div#uptb25-bottab a {
     font-size: .7rem;
     font-weight: 800;
     color: var(--accent-foro);
+  cursor:pointer;
 }
 
 div#uptb25-bottab {
