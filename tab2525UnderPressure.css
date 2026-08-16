@@ -1538,3 +1538,47 @@ upu-icon {
     color: var(--accent) !important;
     padding-bottom: 10px;
 }
+.uptb25-im.sinbr {
+    height: 800px;
+    position: relative;
+}.uptb25-im.sinbr > div:not(#uptb25-bottab) {
+    padding-right: 10px;
+    position: absolute;
+    height: 800px;
+    width: 486px;
+    opacity: 0;
+    overflow: auto;
+    z-index: 0;
+}
+
+.uptb25-im.sinbr > .active {
+    opacity: 1 !important;
+    z-index: 1 !important;
+}
+
+div#uptb25-bottab a {
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 800;
+    color: var(--accent-foro);
+}
+
+div#uptb25-bottab {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div#uptb25-bottab > a.active {
+    border-bottom: 2px solid var(--accent-foro);
+    font-style: italic;
+    color: var(--color-text);
+}
+.up-coleccionables{padding:0 20px 20px}.up-coleccionables>span{display:block;background:var(--upgradient);color:var(--background-4);padding:10px;font-size:.7rem;text-transform:uppercase;font-weight:700;letter-spacing:.5px}.up-coleccionables .stftbla-text{margin:5px 0}.stf-coleccionables.sinbr{display:flex;flex-wrap:wrap;gap:5px;align-items:center;justify-content:center}.stf-coleccionables.sinbr>div{width:70px;height:70px;overflow:hidden;background:var(--background-1);border:var(--border);display:flex;align-items:center;justify-content:center;border-radius:5px;flex-grow:1;min-width:70px}.stf-coleccionables.sinbr>div>img{width:30px;height:30px;background-color:var(--background-2);padding:10px;outline:var(--border);border-radius:100%;outline-offset:3px}.desbloquear{mix-blend-mode:luminosity}.desbloquear>img{animation:prox-item 7s infinite ease-in}.up-coleccionables {
+    border: var(--border);
+    background: var(--background-4);
+    padding: 0;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}.stf-coleccionables.sinbr{padding:20px;padding-top:0}.up-coleccionables{border:var(--border);background:var(--background-4);padding:0}.stf-coleccionables.sinbr{padding:20px;padding-top:0}.new>img{outline:2px solid var(--accent-foro)!important;animation:new-item 1s infinite}@keyframes new-item{0%{outline-offset:0}50%{outline-offset:5px}100%{outline-offset:0}}@keyframes prox-item{0%{outline-offset:0}50%{outline-offset:5px;outline-style:dashed;outline-width:5px}100%{outline-offset:0}}
