@@ -109,7 +109,7 @@ input[type="checkbox" i] {
     color: #!important;
     font-family: var(--font-1);
 }
-a, a:visited, a:active, a:focus{color:var(--accent-1);}
+a, a:visited, a:active, a:focus{color:var(--accent-1); font-weight:800;}
 ::selection{background:var(--accent-1); color:#fafafa; text-shadow: none !important}
 #fa_toolbar{display:none;}
 div#main {overflow: visible!important;}
