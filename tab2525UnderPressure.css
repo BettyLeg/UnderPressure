@@ -1538,10 +1538,11 @@ upu-icon {
     color: var(--accent) !important;
     padding-bottom: 10px;
 }
-.uptb25-im.sinbr {
+#uptbtab {
     height: 800px;
     position: relative;
-}.uptb25-im.sinbr > div:not(#uptb25-bottab) {
+}
+#uptbtab > div:not(#uptb25-bottab) {
     padding-right: 10px;
     position: absolute;
     height: 800px;
@@ -1551,7 +1552,7 @@ upu-icon {
     z-index: 0;
 }
 
-.uptb25-im.sinbr > .pag-activo {
+#uptbtab > .pag-activo {
     opacity: 1 !important;
     z-index: 1 !important;
 }
