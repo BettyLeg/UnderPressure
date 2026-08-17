@@ -12,14 +12,14 @@
 .ganador.stfd-cjtem .cambiar-icon > i {display: flex;align-items: center;justify-content: center;z-index: 1;height: 100%;overflow: hidden;width: 100px;left: 0;}
 .ganador.stfd-cjtem .cambiar-icon {padding-left: 94px;}
 .ganador .stfd-cjtem-pst-lin > div:first-child:after {
-    content: "Fraternidad ganadora 24-25";
+    content: "Fraternidad ganadora 25-26";
     background: var(--accent);
-    padding: 0 10px;
+    padding: 0 18px;
     text-shadow: none;
-    color: #fff;
-    border-radius: 15px;
+    color: #FAFAFa;
+    border-radius: var(--border-radius);
     margin-right: 5px;
-    font-size: .55rem;
+    font-size: .65rem;
     display: flex;
     align-items: center;
     justify-content: center;
