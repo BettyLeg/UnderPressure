@@ -26,8 +26,7 @@ ul#notif_list>li:not(.see_all){border:var(--border); border-radius: var(--border
 ul#notif_list .content{display:flex;align-items:flex-start;justify-content:center; flex-direction: column; line-height:100%; font-size:.75rem;font-weight:500}
 ul#notif_list hr{display:none}ul#notif_list .delete:after{content:"\F5DE";font-family:bootstrap-icons;font-size:1rem}
 ul#notif_list .delete{position:absolute;right:15px}
-</style>
-<style>.stfdt-spg:empty{display:none}
+.stfdt-spg:empty{display:none}
 ::-webkit-scrollbar-thumb{background:var(--accent-1)!important}
 .cjflex{display:flex;align-items:center;justify-content:center}
 .cjgrid{display:grid;gap:5px}
@@ -156,7 +155,3 @@ ul#notif_list li .content a {color: var(--accent); font-weight: 600;}
   a.new-it > i {animation: 2.3s new-it infinite;}
 @keyframes new-it{0%{color:var(--color-icons);}50%{color:var(--accent-foro); transform:rotate(5deg);}100%{color:var(--color-icons);}}
 body.mouse-decorativo, body.mouse-decorativo * {curso r:url(https://ani.cursors-4u.net/symbols/sym-9/sym829.ani), url(https://ani.cursors-4u.net/symbols/sym-9/sym829.png), auto !important;}
-.stf-titulo.cjflex:has(.pagination:empty) {display: none;}
-.stf-titulo.cjflex:has(.pagination:empty), .stfdt-spg:has(.pagination:empty) {
-    display: none;
-}
