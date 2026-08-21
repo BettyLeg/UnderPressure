@@ -538,15 +538,16 @@ up-q {
     width: 350px;
     margin: 10px auto;
     background: var(--background-4);
-    padding: 15px;
+    padding: 10px;
     border: var(--border);
+    border-radius: var(--border-radius);
 }
-
 .msjup25-adm > div {
     border: var(--border);
     background: var(--background-3);
+    border-radius: var(--border-radius);
+    overflow: hidden;
 }
-
 .msjup25-xt {
     margin: 20px;
     border: var(--border);
@@ -564,7 +565,6 @@ up-q {
     bottom: -15px;
     left: 0;
 }
-
 .msjup25a-t {
     background: var(--upgradient);
     position: relative;
@@ -578,8 +578,8 @@ up-q {
     color: #fff;
     text-transform: uppercase;
     font-size: .75rem;
+    border-radius: var(--border-radius);
 }
-
 .msjup25a-t > i {
     font-size: 1.6rem;
     position: absolute;
