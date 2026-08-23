@@ -818,13 +818,14 @@
     border-radius: var(--border-radius);
     border: var(--border);
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-start;
     background-position: center !important;
     position: relative;
     z-index: 1;
+    padding-bottom: 40px;
+    box-sizing: border-box;
 }
-
 .stfev-cont {
     background: linear-gradient(to top, hsl(from var(--accent) calc(h + 5) s l / .3) 15%, var(--background-3) 15%);
     position: relative;
@@ -836,20 +837,18 @@
     margin-top: -30px;
     padding: 25px;
 }
-
 .stfevimg-moodboard {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
     margin-bottom: 30px;
     margin-left: 20px;
-    width: 175px;
 }
-
 .stfev-title {
     gap: 5px;
     display: grid;
     grid-template-columns: 1fr .5fr;
+    margin-top: -60px;
 }
 
 .stfev-text {margin-top: 10px;background: var(--background-4);padding: 40px;border: var(--border);border-radius: var(--border-radius);}
@@ -860,7 +859,7 @@
 }
 
 .stfev-title-c span {
-    background: hsl(from var(--accent) h s l / .3);
+    background: hsl(from var(--accent) h s calc(l + 20) / 1);
     border: var(--border);
     border-radius: var(--border-radius);
     min-width: 75px;
@@ -896,16 +895,16 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: hsl(from var(--accent) h s l / .3);
+    background: hsl(from var(--accent) h s calc(l + 20) / 1);
     border-radius: var(--border-radius);
     border: var(--border);
     padding: 10px 20px;
     text-shadow: var(--text-shadow);
 }
 .stfevimg-moodboard div {
-    width: 70px;
-    height: 70px;
-    background: var(--background-1);
+    width: 60px;
+    height: 60px;
+    background: url(https://placehold.co/60.jpg);
     border-radius: var(--border-radius);
     border: var(--border);
 }
