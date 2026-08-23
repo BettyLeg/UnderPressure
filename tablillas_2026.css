@@ -902,7 +902,13 @@
     padding: 10px 20px;
     text-shadow: var(--text-shadow);
 }
-
+.stfevimg-moodboard div {
+    width: 70px;
+    height: 70px;
+    background: var(--background-1);
+    border-radius: var(--border-radius);
+    border: var(--border);
+}
 .stfev-img:after {
     content:"";
     position: absolute;
