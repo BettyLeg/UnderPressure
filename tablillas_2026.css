@@ -802,3 +802,116 @@
     filter: blur(0);
     opacity: 1;
 }
+.stf-evento-tb {
+    width: 600px;
+    border: var(--border);
+    background: var(--background-2);
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    margin: 10px auto;
+}
+.stfev-img {
+    background-size: cover !important;
+    height: 245px;
+    background-color: #ccc;
+    border-radius: var(--border-radius);
+    border: var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-position: center !important;
+    position: relative;
+    z-index: 1;
+}
+
+.stfev-cont {
+    background: linear-gradient(to top, hsl(from var(--accent) calc(h + 5) s l / .3) 15%, var(--background-3) 15%);
+    position: relative;
+    z-index: 2;
+    border-radius: var(
+    --border-radius);
+    border: var(
+    --border);
+    margin-top: -30px;
+    padding: 25px;
+}
+
+.stfevimg-moodboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    width: 175px;
+}
+
+.stfev-title {
+    gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+}
+
+.stfev-text {margin-top: 10px;background: var(--background-4);padding: 40px;border: var(--border);border-radius: var(--border-radius);}
+
+.stfev-title-c {
+    display: flex;
+    gap: 5px;
+}
+
+.stfev-title-c span {
+    background: hsl(from var(--accent) h s l / .3);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    min-width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    text-shadow: var(--text-shadow);
+    flex: 1 1 0;
+}
+
+.stfev-title-c span b {
+    font-size: .55rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 100%;
+    margin-top: 8px;
+    text-align: center;
+    color: var(--color-text);
+}
+
+.stfev-title-c i {
+    font-size: 1.4rem;
+    color: var(--accent);
+}
+
+.stfev-title-t {
+    font-family: 'Mediative';
+    font-weight: 200;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: hsl(from var(--accent) h s l / .3);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    padding: 10px 20px;
+    text-shadow: var(--text-shadow);
+}
+
+.stfev-img:after {
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(from var(--background-1) h s l / .4);
+    backdrop-filter: grayscale(1) brightness(.8) contrast(1.4);
+    z-index: -1;
+    mix-blend-mode: screen;
+}
