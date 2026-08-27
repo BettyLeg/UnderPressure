@@ -1,7 +1,7 @@
 .sceditor-toolbar{padding:20px 60px!important;display:flex;flex-wrap:wrap;align-items:center;justify-content:center}
 .sceditor-container .sceditor-button>i{color:var(--accent-1)!important;text-shadow:var(--text-shadow);font-size:.9rem}
 .sceditor-button.active,.sceditor-button:active,.sceditor-button:hover{box-shadow:none!important;border:1px solid var(--accent-1)!important}
-div#sft-notislist{position:fixed;top:100px;z-index:999;right:15px; border-radius: var(--border-radius); overflow:hidden;}
+div#sft-notislist{position:fixed;top:100px;z-index:9999999;right:15px; border-radius: var(--border-radius); overflow:hidden;}
 div#fa_menu{display:none}div#fa_right{display:grid!important;width:450px}
 .sceditor-dropdown{background:var(--background-3)!important;border:var(--border)!important;color:var(--accent-1)!important}
 .post-content{background:var(--background-1)!important;color:var(--accent-1)!important}
